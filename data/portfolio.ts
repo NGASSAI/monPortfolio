@@ -69,7 +69,7 @@ export const projects: Project[] = [
     image: '/siteImpactEmloi.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP'],
     github: 'https://github.com/comptengassai/site-impact-emploi',
-    demo: 'https://github.com/comptengassai/site-impact-emploi',
+    demo: 'https://impactemploi.gt.tc',
   },
   {
     title: 'Site Sepelas',
@@ -78,7 +78,7 @@ export const projects: Project[] = [
     image: '/siteSepelas.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP'],
     github: 'https://github.com/comptengassai/site-sepelas',
-    demo: 'https://github.com/comptengassai/site-sepelas',
+    demo: 'https://sepelaslia.my-board.org',
   },
 ];
 
