@@ -43,13 +43,21 @@ export const skillCategories: SkillCategory[] = [
     ],
   },
   {
-    name: 'Outils & Méthodes',
+    name: 'Outils ',
     skills: [
-      { name: 'Git' },
+      { name: 'Git/Github' },
       { name: 'VS Code' },
       { name: 'Figma' },
-      { name: 'Postman' },
     ],
+  },
+  {
+    name: 'Compétences générales',
+    skills: [
+      { name: 'Travail en équipe' },
+      { name: 'communication' },
+      { name: 'Adaptabilité' },
+    ],
+
   },
 ];
 
