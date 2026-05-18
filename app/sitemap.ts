@@ -1,0 +1,16 @@
+// Générateur de sitemap XML pour le site.
+// Permet aux moteurs de recherche de connaître les pages publiques du portfolio.
+import type { MetadataRoute } from 'next';
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = 'https://nathan-ngassai.vercel.app';
+
+  return [
+    {
+      url: baseUrl,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 1,
+    },
+  ];
+}
