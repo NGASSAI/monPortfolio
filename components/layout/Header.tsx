@@ -91,7 +91,7 @@ export default function Header() {
               </a>
             ))}
             <Button
-              href="/NathanNgassai-CV.pdf"
+              href="/CV-NGASSAI-NATHAN.pdf"
               variant="outline"
               size="sm"
               className="border-white text-white hover:bg-white/10"
@@ -130,7 +130,7 @@ export default function Header() {
                     {link.name}
                   </a>
                 ))}
-                <Button href="/NathanNgassai-CV.pdf" variant="outline" size="sm" className="w-full">
+                <Button href="/CV-NGASSAI-NATHAN.pdf" variant="outline" size="sm" className="w-full">
                   Télécharger CV
                 </Button>
               </div>
