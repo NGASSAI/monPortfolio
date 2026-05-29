@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/private/'],
     },
-    sitemap: 'https://nathan-ngassai.vercel.app/sitemap.xml',
+    sitemap: 'https://mon-portfolio-ngassai.vercel.app/sitemap.xml',
   };
 }

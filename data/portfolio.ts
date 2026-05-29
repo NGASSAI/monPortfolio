@@ -26,7 +26,6 @@ export const skillCategories: SkillCategory[] = [
       { name: 'HTML' },
       { name: 'CSS' },
       { name: 'JavaScript' },
-      { name: 'TypeScript' },
       { name: 'React' },
       { name: 'Next.js' },
       { name: 'Tailwind CSS' },
@@ -48,6 +47,8 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Git/Github' },
       { name: 'VS Code' },
       { name: 'Figma' },
+      { name: 'cisco packet tracer' }
+
     ],
   },
   {
@@ -63,12 +64,22 @@ export const skillCategories: SkillCategory[] = [
 
 export const projects: Project[] = [
   {
+    title: 'Application MyLinkPage',
+    description:
+      "Application web de type 'link in bio' pour centraliser et partager facilement tous vos liens importants sur une seule page personnalisable.",
+    image: '/mylinkpage.png',
+    technologies: ['vite', 'React', 'Tailwind CSS'],
+    github: 'https://github.com/NGASSAI/MyLinkPage',
+    demo: 'https://mylinkpage-ngassai.vercel.app',
+    
+  },
+  {
     title: 'Site Impact Emploi',
     description:
       "Site web professionnel pour une plateforme d'emploi avec une interface claire et une navigation fluide.",
     image: '/siteImpactEmloi.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP'],
-    github: 'https://github.com/comptengassai/site-impact-emploi',
+    github: 'https://github.com/NGASSAI/impact-emploi',
     demo: 'https://impactemploi.gt.tc',
   },
   {
@@ -77,7 +88,7 @@ export const projects: Project[] = [
       "Site  moderne de vente des produits agro-alimentaires , prete à l'emploi.",
     image: '/siteSepelas.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP'],
-    github: 'https://github.com/comptengassai/site-sepelas',
+    github: 'https://github.com/NGASSAI/sepelaslia',
     demo: 'https://sepelaslia.my-board.org',
   },
 ];
@@ -99,7 +110,7 @@ export const education: Education[] = [
     degree: 'BEPC',
     institution: 'Collège',
     period: '2019',
-    description: 'Base solide acquise en mathématiques, sciences et communication.',
+    description: 'Base acquise en mathématiques, sciences et communication.',
   },
 ];
 
