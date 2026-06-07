@@ -54,7 +54,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <Button href="/CV-NGASSAI-NATHAN.pdf" variant="primary" size="lg">
+              <Button href="/CV-Nathan-NGASSAI.pdf" variant="primary" size="lg">
                 <Download className="mr-2" size={20} />
                 Télécharger CV
               </Button>
