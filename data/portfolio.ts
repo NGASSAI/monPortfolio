@@ -60,6 +60,17 @@ export const skillCategories: SkillCategory[] = [
     ],
 
   },
+  {
+    name: 'Réseau Informatique',
+    skills: [
+      { name: 'Creation des vlans' },
+      { name: 'Configuration des inter vlan' },
+      { name: 'Adressage ipv4' },
+      { name: 'Configuration du NAT statique et dynamique' },
+      { name: 'configuration de base du routeur et switch' },
+    ],
+
+  },
 ];
 
 export const projects: Project[] = [
@@ -90,6 +101,15 @@ export const projects: Project[] = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP'],
     github: 'https://github.com/NGASSAI/sepelaslia',
     demo: 'https://sepelaslia.my-board.org',
+  },
+  {
+    title: 'VLAN',
+    description:
+      "Creation de Vlan et affectation des ports ensuite configuration de inter vlan",
+    image: '/Configuration_interVlan.png',
+    technologies: ['packet Tracer'],
+    github: '#',
+    demo: '#',
   },
 ];
 
