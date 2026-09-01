@@ -78,7 +78,7 @@ export const projects: Project[] = [
   {
     title:'codeDoctor',
     description:
-    "Une appli d'accompagnement pour les dévéloppeurs , permettant de les aidez à résoudre les bugs pendant le travail et aide aussi à cultiver ce désire de comprendre les bug",
+    "Une appli d'accompagnement pour les dévéloppeurs , permettant de les aidez à résoudre les bugs pendant le travail et aide aussi à cultiver se désire de comprendre les bug",
     image:'/codeDoctor.png',
     technologies:['NextJs','postgreSQL','NodeJs','tailwindcss'],
     github:'https://github.com/NGASSAI/codeDoctor-front',
