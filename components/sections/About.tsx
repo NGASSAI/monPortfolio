@@ -18,7 +18,7 @@ export default function About() {
     {
       icon: Heart,
       title: 'Technologies étudiées',
-      description: 'HTML/CSS, JavaScript, PHP, Laravel, Python (Flask), Next.js, Node.js & Express, Réseaux informatiques.',
+      description: 'HTML/CSS, JavaScript, PHP, Laravel, Python , Next.js, Node.js & Express, Réseaux informatiques...',
     },
     {
       icon: Target,
@@ -46,7 +46,7 @@ export default function About() {
           >
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Je suis Nathan NGASSAI, développeur web junior passionné par la création d&apos;expériences web modernes et performantes. 
-              Actuellement étudiant en Licence 2 Informatique (BETS en cours), je me forme continuellement aux dernières technologies du développement web.
+              Actuellement étudiant en Licence 3 Informatique , je me forme continuellement aux dernières technologies du développement web.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               Mon objectif est de transformer des idées en solutions digitales élégantes et fonctionnelles, 

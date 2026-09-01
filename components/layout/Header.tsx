@@ -91,7 +91,7 @@ export default function Header() {
               </a>
             ))}
             <Button
-              href="/CV-Nathan-NGASSAI.pdf"
+              href="/cv-NGASSAI-NATHAN-JOANAN.pdf"
               variant="outline"
               size="sm"
               className="border-white text-white hover:bg-white/10"

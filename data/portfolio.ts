@@ -15,7 +15,7 @@ export const personalInfo: PersonalInfo = {
     "Je conçois des sites web modernes, légers et professionnels avec une attention particulière portée à la qualité du design, à la performance et à l'expérience utilisateur.",
   email: 'nathanngassai885@gmail.com',
   whatsapp: '242066817726',
-  github: 'https://github.com/comptengassai',
+  github: 'https://github.com/NGASSAI',
   linkedin: 'https://www.linkedin.com/in/nathan-ngassai',
 };
 
@@ -39,6 +39,7 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Node.js' },
       { name: 'Express' },
       { name: 'MySQL' },
+      { name: 'PostgreSql' },
     ],
   },
   {
@@ -74,6 +75,24 @@ export const skillCategories: SkillCategory[] = [
 ];
 
 export const projects: Project[] = [
+  {
+    title:'codeDoctor',
+    description:
+    "Une appli d'accompagnement pour les dévéloppeurs , permettant de les aidez à résoudre les bugs pendant le travail et aide aussi à cultiver ce désire de comprendre les bug",
+    image:'/codeDoctor.png',
+    technologies:['NextJs','postgreSQL','NodeJs','tailwindcss'],
+    github:'https://github.com/NGASSAI/codeDoctor-front',
+    demo:'https://code-doctor-front.vercel.app',
+  },
+  {
+    title:"cv Auto",
+    description:
+    "Un outil permenttant de génerer un cv de manière automatique et de le télécharger en format pdf",
+    image:'/cv auto.png',
+    technologies:['NextJs','tailwindcss','postgreSQL'],
+    github:'https://github.com/NGASSAI/cv-auto',
+    demo:'https://cv-auto-dds.vercel.app',
+  },
   {
     title: 'Application MyLinkPage',
     description:
@@ -115,8 +134,8 @@ export const projects: Project[] = [
 
 export const education: Education[] = [
   {
-    degree: 'Licence 2 Informatique (BETS en cours)',
-    institution: 'Université',
+    degree: 'Licence 3 Informatique ',
+    institution: "Université ECES(école communautaire de l'enseignement supérieur)",
     period: '2024 - Présent',
     description: 'Approfondissement des connaissances en développement web et systèmes informatiques.',
   },
@@ -148,7 +167,7 @@ export const certifications: Certification[] = [
   {
     title: 'Outils bureautiques',
     issuer: 'Formation professionnelle',
-    description: 'Maîtrise avancée des outils de la suite Microsoft Office.',
+    description: 'Maîtrise des outils de la suite Microsoft Office.',
   },
 ];
 
